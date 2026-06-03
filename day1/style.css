@@ -1,0 +1,29 @@
+h2{
+    text-align: right;
+    color: darkgoldenrod;
+    background-color: darkslategray;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-bottom: 7px;
+}
+table
+{    border: 2px solid red;
+    padding: 6px;
+    background-color: aqua;
+    column-gap: 30px;
+}
+.image
+{
+    height: 70px;
+    width: 130px;
+}
+.header1
+{
+    text-align: center;
+    margin: 20px;
+    background-color: red;
+    background-position: 30px;
+    margin: 50px;
+    padding: 40px;
+}
