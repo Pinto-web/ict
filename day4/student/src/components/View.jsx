@@ -35,15 +35,15 @@ const View = () => {
             </TableRow>
           </TableHead>
           <TableBody>
-            {students.map((students) => {
-              return(
+            {students.map((students) => (
+              
               <TableRow>
                 <TableCell>{students.name}</TableCell>
                 <TableCell>{students.age}</TableCell>
                 <TableCell>{students.department}</TableCell>
                 <TableCell>{students.mark}</TableCell>
               </TableRow>
-            )})}
+            ))}
           </TableBody>
         </Table>
       </TableContainer>
